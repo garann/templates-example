@@ -1,4 +1,4 @@
 This is a not-very-serious demo app using jQuery templates on both the client and server, which is node.js with express installed.
 
-[client templates](http://github.com/jquery/jquery-tmpl/)
-[node templates](http://github.com/kof/node-jqtpl)
+client templates: http://github.com/jquery/jquery-tmpl/
+node templates: http://github.com/kof/node-jqtpl
