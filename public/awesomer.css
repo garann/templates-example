@@ -1,0 +1,41 @@
+
+@font-face {
+	font-family: 'METAL';
+	src: url('fonts/swediecruel-webfont.eot');
+	src: local('☺'), url('fonts/swediecruel-webfont.woff') format('woff'), url('fonts/swediecruel-webfont.ttf') format('truetype'), url('fonts/swediecruel-webfont.svg#webfontz45wb8iB') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {margin: 0px; padding: 0px; }
+body { background: #333 url(images/bg.jpg) no-repeat fixed; padding: 10px 100px; color: #ccc; font-family: helvetica, arial, sans-serif; }
+
+h1, h2, h3, h4 { font-family: 'METAL', sans-serif; font-weight: normal; }
+h1 { font-size: 80px; margin-bottom: 50px; text-shadow: -5px -5px 5px #222, 5px 5px 5px #222, -5px 5px 5px #222, 5px -5px 5px #222; }
+h2 { font-size: 40px; }
+h3 { font-size: 40px; margin: 0px 20px; padding: 5px 10px; background-color: rgba(20, 20, 20, 0.5); }
+h4 { font-size: 30px; color: #333; text-shadow: 0px 1px 0px #999; margin-left: 20px; margin-bottom: 20px; }
+a { color: #fff; text-decoration: none; cursor: pointer; }
+a:hover { text-shadow: -1px -1px 5px #999, 1px 1px 5px #999; }
+
+
+
+
+#bands-list { padding: 20px; }
+.band-info { position: relative; overflow: hidden; padding: 10px; margin-bottom: 20px; background-color: rgba(150, 150, 150, 0.5); }
+.band-info img { float: left; margin-right: 20px; }
+.band-info h2 { margin-bottom: 20px; color: #333; text-shadow: 0px 1px 0px #999; }
+.band-info h3 { clear: both; margin-bottom: 40px; position: relative; top: 20px; }
+.band-info a {  display: block; margin-top: 20px; font-family: 'METAL', sans-serif; font-size: 30px; }
+.band-member { display: block; margin-left: 50px; margin-top: 10px; }
+
+.spotlight { background-color: rgba(300,300,300,0.5); width: 150px; height: 150px; -moz-border-radius: 150px; position: absolute; display: none; }
+
+.comment { margin: 0px 20px 20px; padding: 5px 10px; background-color: rgba(300, 300, 300, 0.5); color: #333; font-size: 16px; }
+.comment p { margin: 10px; }
+.comment span { font-size: 12px; font-style: italic; }
+.comment .timestamp { display: block; text-align: right; }
+
+label { margin-left: 20px; margin-bottom: 10px; width: 100px; float: left; clear: left; }
+input, textarea { float: left; width: 990px; margin-bottom: 10px; border: 1px solid #444; padding: 5px; }
+#addComment { clear: left; float: right; margin-right: 40px; background-color: #333; padding: 5px 20px; border: 1px solid #777; }

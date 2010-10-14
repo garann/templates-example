@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Banana Wolf</title>
+<link href="/awesomer.css" rel="stylesheet" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+<body>
+
+	<h1>Awesomer Recordings</h1>
+	
+	
+	<h3>Banana Wolf</h3>
+	<div id="bands-list">
+		<div class="band-info">
+			<img alt="Banana Wolf" src="/images/bwolf.png">  
+			<h2>Banana Wolf</h2>     
+			<span class="band-member">Stevie - Vocoder</span>     
+			<span class="band-member">Brad - Theremin</span>       
+			<a href="earballs.mp3">Download "In Your Earballs"</a>
+			
+			<h3>${comments.length} Comments</h3>
+			{{tmpl(comments) commentTmpl}}
+			<h4>Add a comment:</h4>
+			<label for="txtName">Your name:</label>
+			<input type="text" id="txtName" />
+			<label for="txtText">Comment:</label>
+			<textarea rows="3" cols="40" id="txtText"></textarea>
+			<a id="addComment">DO IT</a>
+		</div>
+	</div>
+	
+
+
+<script src="http://github.com/jquery/jquery-tmpl/raw/master/jquery.tmpl.js"></script>
+<script src="/js/awesomer.js"></script>
+<script src="/js/spotlight/spotlight.js"></script>
+<script type="text/javascript">
+	$(document).ready(awesomer.initBand);
+</script>
+</body>
+</html>

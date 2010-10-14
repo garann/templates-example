@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Awesomer Recordings</title>
+<link href="/awesomer.css" rel="stylesheet" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+
+<body>
+<h1>Awesomer Recordings</h1>
+	
+	
+	<h3>Awesomer Bands</h3>
+	
+	<div id="bands-list">
+	
+	{{tmpl(data) bandTmpl}}
+		
+	</div>
+
+<script src="http://github.com/jquery/jquery-tmpl/raw/master/jquery.tmpl.js"></script>
+<script src="/js/awesomer.js"></script>
+<script src="/js/spotlight/spotlight.js"></script>
+<script type="text/javascript">
+	$(document).ready(awesomer.initHome);
+</script>
+</body>
+</html>
